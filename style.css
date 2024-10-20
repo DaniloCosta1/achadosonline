@@ -1,0 +1,51 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    
+    background-color: #160f6c;
+    height: 200px;
+    
+}
+
+.title{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Genty;
+    font-size: large;
+}
+
+.faixa{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.loja img{
+    height: 50px;
+    
+    
+}
+
+/*_________________________________*/
+
+main{
+    height: calc(100vh - 250px);
+
+}
+
+/*________________________________*/
+
+footer{
+    background-color: #160f6c;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
