@@ -49,6 +49,7 @@ header h3{
     }
     
     header{
+        width: 100vw;
         background-color: #160f6c;
         height: 130px;
         display: flex;
@@ -70,6 +71,7 @@ header h3{
     /* __________________________________________ */
 
     .faixa{
+        width: 100vw;
         background-color: #160f6c;
         display: flex;
         justify-content: center;
