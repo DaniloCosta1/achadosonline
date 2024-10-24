@@ -1,4 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    background-color: #DDDD;
+}
+
+header{
+    background-color: #160f6c;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-family: Genty;
+    color: white;
+}
+
+header h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    margin-left: 70px;
+}
+.faixa{
+    background-color: #160f6c;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.faixa img{
+    height: 30px;
+    width: 125px
+}
 
 @media (max-width: 768px) {
     *{
@@ -39,7 +77,7 @@
         
     }
     .faixa img{
-        height: 30px;
-        width: 125px
+        height: 20px;
+        width: 90px
     }
 }
