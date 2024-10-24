@@ -5,6 +5,10 @@
         margin: 0;
         padding: 0;
     }
+
+    body{
+        background-color: #DDDD;
+    }
     
     header{
         background-color: #160f6c;
@@ -25,9 +29,12 @@
         color: orange;
         margin-left: 70px;
     }
-    
+    /* __________________________________________ */
+
     .faixa{
+        background-color: #160f6c;
         display: flex;
+        justify-content: center;
         flex-direction: row;
         
     }
