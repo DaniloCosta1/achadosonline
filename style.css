@@ -38,13 +38,25 @@ header h3{
     width: 125px
 }
 
-/* BOTÃO */
-.wrap {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+/* ________________MAIN________________ */
+
+main{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* __________telegram____________ */
+.telegram{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* _______BOTÃO_____________ */
+
   
   .button {
     
