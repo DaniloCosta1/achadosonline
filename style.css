@@ -38,14 +38,6 @@ header h3{
     width: 125px
 }
 
-/* ________________MAIN________________ */
-
-main{
-  height: auto;
-  display: flex;
-  flex-direction: column;
-}
-
 
 /* __________telegram____________ */
 .telegram{
@@ -74,7 +66,7 @@ main{
     font-weight: 700;
     color: white;
     background: #160f6c;;
-  background: linear-gradient(90deg, rgb(3, 31, 124) 0%, rgb(86, 79, 209) 100%);
+    background: linear-gradient(90deg, rgb(3, 31, 124) 0%, rgb(86, 79, 209) 100%);
     border: none;
     border-radius: 1000px;
     box-shadow: 12px 12px 24px rgba(6, 221, 199, 0.64);
@@ -160,11 +152,15 @@ button{
 }
 
 .ofertas{
-  height: 50%;
+  border: 1px solid red;
+  height: auto;
+  padding: 10px;
+
   display: flex;
-  flex-direction: ;
+  flex-wrap: wrap;
+  flex-direction: row;
   gap: 10px;
-  
+  margin: 0px 5px;
 }
 
 .link{
