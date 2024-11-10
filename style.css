@@ -1,156 +1,23 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-/* ___________SMARTPHONE______________________ */
-@media only screen and (max-width: 600px){
+@media(max-width: 574px){
 
   body{
-    background-color: #DDDD;
-}
-
-
-
-/* ________HEADER____________________ */
+    background-color: #160f6c;
+  }
 
   header{
-      background-color: #160f6c;
-      height: 500px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      
-      align-items: center;
-  }
-
-  .title{
-    margin-left: 250px;
-  }
-
-  /* canais */
-
-  .canais{
-    border: 3px solid white;
-    padding: 5px;
-
-    margin-right: 200px;
-    margin-top: 50px;
-
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-
-  }
-
-  .grupos{
-    border: 1px solid rgb(237, 61, 13);
-
-    display: flex;
-    justify-content: space-evenly;
+    border: 3px solid red;
     
-  }
-
-  .grupos img{
-    height: 80px;
-    
-    border-radius: 50%;
-  }
-
-  
-
-  .mensagem{
-    border: 1px solid greenyellow;
-    color: white;
-
-    width: 200px;
 
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    font-family: 'Nunito', sans-serif;
-
-    
   }
 
-  .mensagem h5{
-    text-transform: uppercase;
-  }
-
-  header h1{
-      font-family: Genty;
-      color: white;
-  }
-
-  header h3{
-      font-family: Arial, Helvetica, sans-serif;
-      color: orange;
-      margin-left: 70px;
-  }
-
-  /*_____________FAIXA___________________*/
-
-
-  .faixa{
-      background-color: #160f6c;
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-      
-  }
-  .faixa img{
-      height: 30px;
-      width: 125px
-  }
-
-
-  /* ____________MAIN________________ */
-
-  main{
-      height: 700px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
-
- 
-
-  .ofertas{
-    /* border: 1px solid red; */
-    height: 700px;
-    padding: 10px;
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 10px;
-    margin: 0px 5px;
-  }
-
-  .link{
-    background-color: white;
-    padding: 5px;
-    height: 200px;
-    width: 200px;
-    border: 1px solid rgb(151, 146, 146);
-    border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .link img{
+  header img{
     height: 100px;
-    width: 100px;
-    margin-bottom: 10px;
   }
-
-  .link a{
-    text-decoration: none;
-  }
-
 }
