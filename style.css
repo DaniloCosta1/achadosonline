@@ -9,6 +9,7 @@
     background-color: #160f6c;
   }
 
+  /* HEADER */
   header{
     /* border: 3px solid red; */
     display: flex;
@@ -19,13 +20,20 @@
     height: 200px;
   }
 
-  .canais{
-    display: none;
+  /* MAIN */
+  main{
+    /* border: 2px solid yellow; */
+    height: 400px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
   }
 
-  .faixa{
-    display: none;
-  }
+  
 }
 
 

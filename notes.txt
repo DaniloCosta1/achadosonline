@@ -284,3 +284,26 @@
 
 
 } 
+
+
+
+<div class="canais">
+             
+            <a href="https://whatsapp.com/channel/0029VarSwXl7NoZsA0aUsU1u" target="_blank"><img src="image/whatsapp.png" alt=""></a>
+            <a href="https://t.me/OficialAchadosOnline" target="_blank"><img src="image/telegram.webp" alt=""></a>      
+            
+        </div>
+        
+
+
+
+        <div class="faixa">
+
+        <img src="image/shopee.png" alt="">
+        <img src="image/amazon.png" alt="">
+        <img src="image/ml.png" alt="">
+        
+        <img src="image/magalu.png" alt="">
+        <img src="image/ali.png" alt="">
+        
+    </div>
