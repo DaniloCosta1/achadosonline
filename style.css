@@ -3,94 +3,58 @@
     padding: 0;
 }
 
-body{
+/* ___________DESKTOP___________________________ */
+@media (min-width: 769px){
+
+  body{
     background-color: #DDDD;
 }
 
-header{
-    background-color: #160f6c;
-    height: 130px;
+  header{
+      background-color: #160f6c;
+      height: 150px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .title{
+    margin-left: 250px;
+  }
+
+  /* canais */
+
+  .canais{
+    border: 3px solid white;
+    padding: 5px;
+
+    margin-right: 200px;
+    margin-top: 50px;
+
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-
-header h1{
-    font-family: Genty;
-    color: white;
-}
-
-header h3{
-    font-family: Arial, Helvetica, sans-serif;
-    color: orange;
-    margin-left: 70px;
-}
-.faixa{
-    background-color: #160f6c;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    
-}
-.faixa img{
-    height: 30px;
-    width: 125px
-}
 
 
-/* __________telegram____________ */
-.telegram{
-  /* border: 2px solid red; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* _______BOTÃO_____________ */
-
-  
-  .button {
-    
-    min-width: 300px;
-    min-height: 60px;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Nunito', sans-serif;
-    
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1.3px;
-    font-weight: 700;
-    color: white;
-    background: #160f6c;;
-    background: linear-gradient(90deg, rgb(3, 31, 124) 0%, rgb(86, 79, 209) 100%);
-    border: none;
-    border-radius: 1000px;
-    box-shadow: 12px 12px 24px rgba(6, 221, 199, 0.64);
-    transition: all 0.3s ease-in-out 0s;
-    cursor: pointer;
-    outline: none;
-    position: relative;
-    padding: 10px;
-    }
-  
-  
-  
-  .button:hover, 
-  .button:focus {
-    color: white;
-    transform: translateY(6px);
   }
-  
-  .button:hover::before, 
-  .button:focus::before {
-    opacity: 1;
+
+  .grupos{
+    border: 1px solid rgb(237, 61, 13);
+
+    display: flex;
+    justify-content: space-evenly;
+    
   }
-  
-  .button::after {
+
+  .grupos img{
+    height: 80px;
+    
+    border-radius: 50%;
+  }
+
+  .grupos a::after {
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
@@ -102,92 +66,113 @@ header h3{
     transform: translate(-50%, -50%);
     animation: ring 1.0s infinite;
   }
-  
-  .button:hover::after, 
-  .button:focus::after {
-    animation: none;
-    display: none;
-  }
 
-  .button a{
+  .mensagem{
+    border: 1px solid greenyellow;
     color: white;
-    text-decoration: none;
+
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Nunito', sans-serif;
+
+    text-transform: uppercase;
   }
-  
-  @keyframes ring {
-    0% {
-      width: 30px;
+
+  header h1{
+      font-family: Genty;
+      color: white;
+  }
+
+  header h3{
+      font-family: Arial, Helvetica, sans-serif;
+      color: orange;
+      margin-left: 70px;
+  }
+
+  /*_____________FAIXA___________________*/
+
+
+  .faixa{
+      background-color: #160f6c;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      
+  }
+  .faixa img{
       height: 30px;
-      opacity: 1;
-    }
-    100% {
-      width: 300px;
-      height: 300px;
-      opacity: 0;
-    }
+      width: 125px
   }
 
-/* ____________________________ */
 
-main{
-    height: calc(100vh - 200px);
+  /* ____________MAIN________________ */
+
+  main{
+      height: calc(100vh - 200px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  button{
+      background-color: orange;
+      height: 100px;
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+
+
+  .telegram{
+        
+    height: 50%;
+  }
+
+  .ofertas{
+    /* border: 1px solid red; */
+    height: auto;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0px 5px;
+  }
+
+  .link{
+    background-color: white;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(151, 146, 146);
+    border-radius: 6px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-button{
-    background-color: orange;
+  .link img{
     height: 100px;
-    padding: 20px;
-    border-radius: 10px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+
+  .link a{
+    text-decoration: none;
+  }
+
 }
 
 
 
-.telegram{
-      
-  height: 50%;
-}
 
-.ofertas{
-  /* border: 1px solid red; */
-  height: auto;
-  padding: 10px;
-
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 10px;
-  margin: 0px 5px;
-}
-
-.link{
-  background-color: white;
-  padding: 5px;
-  height: 200px;
-  width: 200px;
-  border: 1px solid rgb(151, 146, 146);
-  border-radius: 6px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.link img{
-  height: 100px;
-  width: 100px;
-  margin-bottom: 10px;
-}
-
-.link a{
-  text-decoration: none;
-}
-
-
-/* ______CELULAR____________________ */
+/* _________________CELULAR____________________ */
 
 @media (max-width: 768px) {
     *{
@@ -218,6 +203,11 @@ button{
         font-family: Arial, Helvetica, sans-serif;
         color: orange;
         margin-left: 70px;
+
+    }
+
+    .grupos{
+      display: none;
     }
     /* ________________________ */
 
