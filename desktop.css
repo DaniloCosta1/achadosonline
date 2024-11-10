@@ -3,24 +3,19 @@
     padding: 0;
 }
 
-/* ___________SMARTPHONE______________________ */
-@media only screen and (max-width: 600px){
+/* ___________DESKTOP___________________________ */
+@media (max-width: 768px ){
 
   body{
     background-color: #DDDD;
 }
 
-
-
-/* ________HEADER____________________ */
-
   header{
       background-color: #160f6c;
-      height: 500px;
+      height: 150px;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      
+      flex-direction: row;
+      justify-content: space-between;
       align-items: center;
   }
 
@@ -59,7 +54,18 @@
     border-radius: 50%;
   }
 
-  
+  .grupos a::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #05348b;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.0s infinite;
+  }
 
   .mensagem{
     border: 1px solid greenyellow;
@@ -109,18 +115,30 @@
   /* ____________MAIN________________ */
 
   main{
-      height: 700px;
+      height: calc(100vh - 200px);
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
   }
 
- 
+  button{
+      background-color: orange;
+      height: 100px;
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+
+
+  .telegram{
+        
+    height: 50%;
+  }
 
   .ofertas{
     /* border: 1px solid red; */
-    height: 700px;
+    height: auto;
     padding: 10px;
 
     display: flex;
