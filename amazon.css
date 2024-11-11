@@ -26,14 +26,14 @@
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
-        
+        padding: 2px;
     }
     
     .link{
         background-color: white;
         padding: 5px;
         height: auto;
-        width: 150px;
+        width: 175px;
         border: 1px solid black;
         border-radius: 6px;
         display: flex;
@@ -44,6 +44,7 @@
     
     .link img{
         height: 100px;
+        width: 100px;
     }
 
 
