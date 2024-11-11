@@ -24,16 +24,17 @@
     /* MAIN */
     main{
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 10px;
-        padding: 2px;
+        padding: 10px 5px;
     }
     
     .link{
         background-color: white;
         padding: 5px;
         height: auto;
-        width: 175px;
+        width: 170px;
         border: 1px solid black;
         border-radius: 6px;
         display: flex;
