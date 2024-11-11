@@ -34,7 +34,7 @@
   }
 
   .botão{
-
+    width: 250px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -42,7 +42,7 @@
     padding: 10px;
     background-color: #DDDD;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 3px solid black;
     box-shadow: 3px 3px 5px #FFFF;
     
   }
