@@ -3,33 +3,6 @@
   padding: 0;
 }
 
-@media (min-width:601)and(max-width: 1920px){
-
-  body{
-    background-color: #DDDD;
-  }
-
-  /* HEADER */
-  header{
-    /* border: 3px solid red; */
-    height: 100px;
-    background-color: #160f6c;
-    display: flex;
-    justify-content: center;
-  }
-
-  header img{
-    display: none;
-  }
-
-
-
-
-
-}
-
-
-
 /* _____SMARTPHONE______ */
 
 @media(max-width: 600px){
@@ -94,3 +67,34 @@
 
   
 }
+
+
+
+/* __DESKTOP____ */
+@media(min-width: 601px) and (max-width: 2140px){
+
+
+  body{
+    background-color: #d91f1fdd;
+    
+  }
+  /* HEADER */
+  header{
+    /* border: 3px solid red; */
+    height: 100px;
+    background-color: #160f6c;
+    display: flex;
+    justify-content: center;
+  }
+
+  header img{
+    display: none;
+  }
+
+}
+
+
+
+  
+
+  
