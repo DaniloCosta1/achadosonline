@@ -33,6 +33,15 @@
     gap: 10px;
   }
 
+  .whatsapp{
+    background-color: #DDDD;
+  }
+
+  .whatsapp img{
+    height: 30px;
+    border-radius: 50%;
+  }
+
   
 }
 
