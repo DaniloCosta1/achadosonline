@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width: 574px){
+
+    body{
+      background-color: #DDDD;
+    }
+  
+    /* HEADER */
+    header{
+      /* border: 3px solid red; */
+      background-color: #160f6c;
+      display: flex;
+      justify-content: center;
+    }
+  
+    header img{
+      height: 200px;
+    }
+
+    /* MAIN */
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        
+    }
+    
+    .link{
+        background-color: white;
+        padding: 5px;
+        height: auto;
+        width: 150px;
+        border: 1px solid black;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+    .link img{
+        height: 100px;
+    }
+
+
+}
