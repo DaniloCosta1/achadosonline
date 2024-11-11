@@ -3,7 +3,36 @@
   padding: 0;
 }
 
-@media(max-width: 574px){
+@media (min-width:601)and(max-width: 1920px){
+
+  body{
+    background-color: #DDDD;
+  }
+
+  /* HEADER */
+  header{
+    /* border: 3px solid red; */
+    height: 100px;
+    background-color: #160f6c;
+    display: flex;
+    justify-content: center;
+  }
+
+  header img{
+    display: none;
+  }
+
+
+
+
+
+}
+
+
+
+/* _____SMARTPHONE______ */
+
+@media(max-width: 600px){
 
   body{
     background-color: #160f6c;
@@ -19,6 +48,12 @@
   header img{
     height: 200px;
   }
+
+  .title{
+    display: none;
+  }
+
+  
 
   /* MAIN */
   main{
@@ -58,20 +93,4 @@
   }
 
   
-}
-
-
-
-
-
-
-
-
-/* _________DESKTOP______________ */
-
-@media(min-width: 575px){
-
-  body{
-    background-color: bisque;
-  }
 }
