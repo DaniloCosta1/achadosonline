@@ -33,13 +33,27 @@
     gap: 10px;
   }
 
-  .whatsapp{
+  .botão{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
     background-color: #DDDD;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px #FFFF;
+    
   }
 
-  .whatsapp img{
+  .botão img{
     height: 30px;
     border-radius: 50%;
+  }
+
+   a{
+    text-decoration: none;
   }
 
   
