@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* _____SMARTPHONE______ */
@@ -26,7 +27,14 @@
     display: none;
   }
 
-  
+  .faixa{
+    display: none;
+  }
+
+  .chamada{
+    display: none;
+  }
+
 
   /* MAIN */
   main{
@@ -70,14 +78,14 @@
 
 
 
-/* __DESKTOP____ */
-@media(min-width: 601px) and (max-width: 2140px){
+/* _______________________DESKTOP_____________________________________ */
+@media(min-width: 601px) and (max-width: 3840px){
 
 
   body{
-    background-color: #d91f1fdd;
-    
+    background-color: #160f6c;
   }
+
   /* HEADER */
   header{
     /* border: 3px solid red; */
@@ -85,16 +93,69 @@
     background-color: #160f6c;
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: white;
   }
 
   header img{
     display: none;
   }
 
+  .title h1{
+    font-family: Genty;
+  }
+
+  .title h3{
+    margin-left: 70px;
+    color: orange;
+
+  }
+
+  /* faixa */
+  .faixa{
+    background-color: #160f6c;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .faixa img{
+    height: 30px;
+    width: 120px;
+  }
+
+  .chamada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+  }
+
+  .canais{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .chamada img{
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .button{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .entre{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
+
+  main{
+    display: none;
+  }
+
 }
-
-
-
-  
-
-  
