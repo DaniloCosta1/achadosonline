@@ -35,6 +35,14 @@
     display: none;
   }
 
+  .main-desktop{
+    display: none;
+  }
+
+  .amazon{
+    display: none;
+  }
+
 
   /* MAIN */
   main{
@@ -130,32 +138,84 @@
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    
+    margin: 10px;
   }
 
   .canais{
     display: flex;
     flex-direction: row;
+    gap: 30px;
   }
 
-  .chamada img{
-    height: 80px;
+  .button img{
+    height: 50px;
     border-radius: 50%;
   }
 
   .button{
     display: flex;
     flex-direction: column;
-  }
-
-  .entre{
-    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
+  .mensagem{
+    height: 50px;
+    width: 100vw;
+    border: 1px solid white;
+    margin-top: 5px;
+  }
 
   main{
     display: none;
   }
+
+  /* MAIN DESKTOP */
+  .main-desktop{
+    background-color: #DDDD;
+    height: calc(100vh - 200px) ;
+  }
+
+
+  /* AMAZON */
+  .amazon{
+    background-color: #DDDD;
+    padding: 10px;
+    height: 300px;
+    width: 99vw;
+    margin: 0px 5px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    gap: 10px;
+    
+  }
+
+  .link{
+    background-color: white;
+    padding: 5px;
+    height: auto;
+    width: 170px;
+    border: 1px solid rgb(155, 154, 154);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .link img{
+    height: 100px;
+    width: 100px;
+}
+
+.link a{
+  text-decoration: none;
+}
 
 }
