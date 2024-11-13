@@ -163,7 +163,7 @@
   .mensagem{
     height: 50px;
     width: 100vw;
-    border: 1px solid white;
+    
     margin-top: 5px;
   }
 
@@ -173,8 +173,11 @@
 
   /* MAIN DESKTOP */
   .main-desktop{
-    background-color: #DDDD;
-    height: calc(100vh - 200px) ;
+    text-align: center;
+  }
+
+  .main-desktop h2{
+    color: #DDDD;
   }
 
 
@@ -183,7 +186,7 @@
     background-color: #DDDD;
     padding: 10px;
     height: 300px;
-    width: 99vw;
+    width: 100vw;
     margin: 0px 5px;
     border: 1px solid white;
     display: flex;
