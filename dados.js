@@ -1,5 +1,17 @@
 let produtos = [
     {
+        nome:"PlayStation®5 Slim Disk + 2 Jogos",
+        imagem:"https://m.media-amazon.com/images/I/71Q8qo9ZhnL._AC_SL1500_.jpg",
+        plataforma:"amazon",
+        link: "https://amzn.to/4hTCOjc"
+    },
+    {
+        nome:"PlayStation®5 Slim Edição Digital com 2 Jogos",
+        imagem:"https://m.media-amazon.com/images/I/71ANJQTALWL._AC_SL1500_.jpg",
+        plataforma:"amazon",
+        link: "https://amzn.to/3AR67SP"
+    },
+    {
         nome: "Paradigmas do ensino da Literatura",
         imagem: "https://m.media-amazon.com/images/I/91Z8XWFcC7L._SL1500_.jpg",
         plataforma: "amazon",
