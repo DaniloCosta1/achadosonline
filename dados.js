@@ -1,5 +1,11 @@
 let produtos = [
     {
+        nome:`Smart TV 4K 55" LG QNED 55QNED80T Processador α5 Ger7 AI Quantum Dot Nanocell Local Dimming Design Super Slim Alexa/Chromecast integrado webOS 24`,
+        imagem:"https://m.media-amazon.com/images/I/61E2-ioXeIL._AC_SL1000_.jpg",
+        plataforma:"amazon",
+        link: "https://amzn.to/3CKqfGG"
+    },
+    {
         nome:"PlayStation®5 Slim Disk + 2 Jogos",
         imagem:"https://m.media-amazon.com/images/I/71Q8qo9ZhnL._AC_SL1500_.jpg",
         plataforma:"amazon",
