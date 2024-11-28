@@ -1,6 +1,6 @@
 let produtos = [
     {
-        nome:`Smart TV 4K 55" LG QNED 55QNED80T Processador α5 Ger7 AI Quantum Dot Nanocell Local Dimming Design Super Slim Alexa/Chromecast integrado webOS 24`,
+        nome:`Smart TV 4K 55" LG QNED 55QNED80T`,
         imagem:"https://m.media-amazon.com/images/I/61E2-ioXeIL._AC_SL1000_.jpg",
         plataforma:"amazon",
         link: "https://amzn.to/3CKqfGG"
